@@ -3,6 +3,11 @@
 <head>
 	<title>Сериалы</title>
 	<style type="text/css">
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
 header{
 	background : black url(../images/luci.jpg);
 	padding: 100px
@@ -33,6 +38,28 @@ header{
     font-size: 25px;
     text-align: center;
     }
+    div {
+        display: block;
+    }
+    .post-container {
+    margin: 20px 20px 0 0;  
+    overflow: auto
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+    margin-left: 210px
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%
+}
+
+
 </style>
 </head>
 <body style="background:#B22222 ">
@@ -44,7 +71,8 @@ header{
     		<li><a href="../pages/form.html">Контакты</a></li>
     	</ul></nav>
 	</header>
-    <div><img src="../images/12.jpg" alt="Заставка" align="left" width="300" height="200" style=" border: 10px solid #B22222;"><br>
+    <div class="post-container">                
+    <div class="post-thumb"><img src="../images/12.jpg" alt="Заставка" align="left" width="300" height="200" style=" border: 10px solid #B22222;"><br>
     <big style="color: white; font-size: 25px"><a href="../pages/news1.html">Сериал «Люцифер» пытались запретить на этапе производства</a></big><br>
     <p>С такой инициативой выступили...</p><br>
     <img src="../images/11.jpeg" alt="Том Эллис" align="left" width="180" height="230" style=" border: 10px solid #B22222;"><br>
@@ -53,9 +81,9 @@ header{
     <img src="../images/13.jpg" alt="Заставка" align="left" width="300" height="200" style=" border: 10px solid #B22222;"><br>
     <big style="color: white; font-size: 25px"><a href="../pages/news3.html">Новости по поводу 2 части 5 сезона «Люцифера»</a></big><br>
     <p>Наступает 2021 год, и, поскольку прошлый год был беспрецедентным вызовом практически во всех возможных смыслах, люди возлагают большие надежды на новый год.</p><br>
-    <img src="../images/14.jpg" alt="Заставка" align="left" width="300" height="200" style=" border: 10px solid #B22222;"><br>
+    <div><img src="../images/14.jpg" alt="Заставка" align="left" width="300" height="200" style=" border: 10px solid #B22222;"><br>
     <big style="color: white; font-size: 25px"><a href="../pages/news4.html">Раскрыт 6 сезон сериала «Люцифер»</a></big><br>
-    <p>Все считали, что 5 сезон «Люцифера» будет финальным для шоу, но теперь стало известно...</p><br>
+    <p>Все считали, что 5 сезон «Люцифера» будет финальным для шоу, но теперь стало известно...</p></div><br>
     <img src="../images/15.jpg" alt="Заставка" align="left" width="300" height="200" style=" border: 10px solid #B22222;"><br>
     <big style="color: white; font-size: 25px"><a href="../pages/news5.html">Тизер отношений Люцифера и Хлои в 5 сезоне сериала</a></big><br>
     <p>Четвертый сезон «Люцифера» закончился на душераздирающей ноте. Хлоя Декер (Лорен Джерман) и Люцифер Морнингстар (Том Эллис) наконец признали свою любовь друг к другу, но...</p></div>
